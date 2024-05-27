@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/simple-chess/node_modules
+/simple-chess/.pnp
+/simple-chess.pnp.js
+/simple-chess.yarn/install-state.gz
+
+# testing
+/simple-chess/coverage
+
+# next.js
+/simple-chess/.next/
+/simple-chess/out/
+
+# production
+/simple-chess/build
+
+# misc
+/simple-chess.DS_Store
+/simple-chess*.pem
+
+# debug
+/simple-chessnpm-debug.log*
+/simple-chessyarn-debug.log*
+/simple-chessyarn-error.log*
+
+# local env files
+/simple-chess.env*.local
+
+# vercel
+/simple-chess.vercel
+
+# typescript
+/simple-chess*.tsbuildinfo
+/simple-chessnext-env.d.ts
